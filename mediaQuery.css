@@ -1,0 +1,75 @@
+
+/* Media Queries */
+/* laptops:960+    
+Tablests:760-960
+Mobiles:240-480
+*/
+
+/* width - 786 */
+@media (max-width: 800px) {
+    .navbar {
+      padding: 1rem;
+      justify-content: space-between;
+    }
+    .hero-text-div {
+      top: 20%;
+      left: 10%;
+    }
+    .hero-text-div h1 {
+      font-size: 1.8em;
+    }
+    .hero-text-div span {
+      font-size: 1em;
+    }
+    .nav-links {
+      display: none;
+    }
+  
+    #hero1-btn {
+      width: 8rem;
+    }
+  
+  }
+
+  @media (max-width: 512px) {
+    .card{
+      margin:0.2rem auto;
+      max-width:90%;
+    }
+    .hero2-left-inner1-div{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* width-460px */
+  @media (max-width: 460px) {
+    .navbar {
+      padding: 0.9rem;
+      justify-content: space-between;
+    }
+    .hero-text-div {
+      top: 12%;
+      left: 6%;
+    }
+    .hero-text-div h1 {
+      font-size: 1.6em;
+    }
+    .hero-text-div span {
+      font-size: 0.91em;
+      line-height: 0.1rem;
+    }
+    .nav-links {
+      display: none;
+    }
+  
+    #hero1-btn {
+      width: 6rem;
+      padding: 0.1rem;
+      font-size: 1rem;
+    }
+    .card{
+      margin:0.2rem auto;
+      max-width:90%;
+    }
+  }
+  
